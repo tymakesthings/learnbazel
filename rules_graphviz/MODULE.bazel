@@ -1,0 +1,2 @@
+module(name = "rules_graphviz", version = "1.0.0")
+
