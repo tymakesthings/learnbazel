@@ -5,3 +5,10 @@ system_dot_rule(
     src = "example.dot",
     out = "example.png",
 )
+
+genrule(
+    name = "show_message",
+    srcs = ["@the_graphviz_repo//:message_file"],
+    outs = ["output.txt"],
+    cmd = "cp $< $@",
+)

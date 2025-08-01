@@ -137,6 +137,22 @@
   },
   "selectedYankedVersions": {},
   "moduleExtensions": {
+    "@@rules_graphviz+//:extension.bzl%graphviz": {
+      "general": {
+        "bzlTransitiveDigest": "0j+CWqejznkln6+flyELTixFwBDOtmVxAiSPRJWC7l0=",
+        "usagesDigest": "bAb3pK5SlFMzfsehNj9qEydbY1ZiZ1qvGImOBjratYo=",
+        "recordedFileInputs": {},
+        "recordedDirentsInputs": {},
+        "envVariables": {},
+        "generatedRepoSpecs": {
+          "the_graphviz_repo": {
+            "repoRuleId": "@@rules_graphviz+//:repo.bzl%graphviz_repo",
+            "attributes": {}
+          }
+        },
+        "recordedRepoMappingEntries": []
+      }
+    },
     "@@rules_kotlin+//src/main/starlark/core/repositories:bzlmod_setup.bzl%rules_kotlin_extensions": {
       "general": {
         "bzlTransitiveDigest": "hUTp2w+RUVdL7ma5esCXZJAFnX7vLbVfLd7FwnQI6bU=",

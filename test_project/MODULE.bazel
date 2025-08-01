@@ -6,4 +6,5 @@ local_path_override(module_name = "rules_graphviz", path = "../rules_graphviz")
 
 graphviz = use_extension("@rules_graphviz//:extension.bzl", "graphviz")
 
-graphviz.install(version = "1.0.0")
+
+use_repo(graphviz, "the_graphviz_repo")
