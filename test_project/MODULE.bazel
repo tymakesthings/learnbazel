@@ -3,3 +3,7 @@ module(name = "test_project", version = "1.0.0")
 bazel_dep(name = "rules_graphviz", version = "1.0.0")
 
 local_path_override(module_name = "rules_graphviz", path = "../rules_graphviz")
+
+graphviz = use_extension("@rules_graphviz//:extension.bzl", "graphviz")
+
+graphviz.install(version = "1.0.0")
