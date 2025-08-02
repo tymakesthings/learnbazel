@@ -8,3 +8,6 @@ graphviz = use_extension("@rules_graphviz//:extension.bzl", "graphviz")
 
 
 use_repo(graphviz, "the_graphviz_repo")
+
+# can this be something more specific?
+register_toolchains("@the_graphviz_repo//:all")
