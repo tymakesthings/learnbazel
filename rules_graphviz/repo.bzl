@@ -12,7 +12,7 @@ filegroup(
 
 filegroup(
     name = "graphviz_darwin_arm64_file",
-    srcs = ["graphviz/bin/dot"],
+    srcs = glob(["graphviz/**"]),
     visibility = ["//visibility:public"]
 )
 
