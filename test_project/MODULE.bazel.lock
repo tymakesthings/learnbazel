@@ -139,7 +139,7 @@
   "moduleExtensions": {
     "@@rules_graphviz+//:extension.bzl%graphviz": {
       "general": {
-        "bzlTransitiveDigest": "adrILekBKdxPrpdeSD22BH0cb8EDwJd08pGvPXCPaXw=",
+        "bzlTransitiveDigest": "9T10vbkhSkV6TqSTqvxlsvRXE2OUaKgCcRJlBlpTjkI=",
         "usagesDigest": "bAb3pK5SlFMzfsehNj9qEydbY1ZiZ1qvGImOBjratYo=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},

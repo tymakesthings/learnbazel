@@ -1,6 +1,6 @@
-load("@rules_graphviz//:graphviz.bzl", "dot_rule")
+load("@rules_graphviz//:graphviz.bzl", "dot_png")
 
-dot_rule(
+dot_png(
     name = "example",
     src = "example.dot",
     out = "example.png",

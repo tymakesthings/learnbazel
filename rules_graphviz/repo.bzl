@@ -37,9 +37,9 @@ toolchain(
     """,
 )
     ctx.download_and_extract(
-        url = "https://gitlab.com/graphviz/graphviz/-/jobs/10852413719/artifacts/file/Packages/Darwin/23.6.0/Graphviz-13.1.2~dev.20250730.0050-Darwin.zip",
-        sha256 = "641ee69f5686153bc601b5f8a32e253d9a352191f5bf869c54e875769d8ce3a6",
-        strip_prefix = "Graphviz-13.1.2~dev.20250730.0050-Darwin",
+        url = "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/13.1.2/Darwin_23.6.0_graphviz-13.1.2-arm64.tar.gz",
+        sha256 = "85504546cb9fecc45aa07da8a882dc7d2d0c516853fb5cb3412494c0fd6792e1",
+        strip_prefix = "build",
         output = "graphviz",
     )
 

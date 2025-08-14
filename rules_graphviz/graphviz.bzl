@@ -19,7 +19,7 @@ graphviz_toolchain = rule(
     },
 )
 
-def _dot_impl(ctx):
+def _dot_png_impl(ctx):
     graphviz_info = ctx.toolchains[":toolchain_type"].graphviz_info
     dot_path_target = graphviz_info.dot_path
     dot_depset = dot_path_target.files
@@ -45,8 +45,8 @@ def _dot_impl(ctx):
     # Is transitive necessary here?
     return [DefaultInfo(files = depset([ctx.outputs.out], transitive = [dot_depset]))]
 
-dot_rule = rule(
-    implementation = _dot_impl,
+dot_png = rule(
+    implementation = _dot_png_impl,
     attrs = {
         "src": attr.label(allow_single_file = True, mandatory = True),
         "out": attr.output(mandatory = True),
